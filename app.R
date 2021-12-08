@@ -45,7 +45,7 @@ server <- function(input, output) {
 
   
   # read our result
-  fileData <- read.table('data/file.xls', sep='\t',header = T, check.names = F)
+  fileData <- read.table('file.xls', sep='\t',header = T, check.names = F)
  
    Text <- reactive({
      # check the Name and Date is right
